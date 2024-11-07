@@ -12,13 +12,16 @@ function Projects() {
           src={expenses}
           link="https://expensestracker-client.vercel.app/"
           h3="Tracker"
+          h5='Test User: test@test.com // testapp'
           p="Money tracker app"
         />
         <ProjectCard
           src={notepad}
           link="https://notepad-client.vercel.app/"
           h3="Notepad"
+          h5='Test User: test@test.com // testapp'
           p="Notepad app"
+          
         />
       </div>
     </section>

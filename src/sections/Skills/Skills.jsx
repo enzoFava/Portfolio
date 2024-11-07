@@ -22,10 +22,10 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Python" />
         <SkillList src={checkMarkIcon} skill="Django" />
+        <SkillList src={checkMarkIcon} skill="Flask" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Flask" />
         <SkillList src={checkMarkIcon} skill="ExpressJS" />
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="PostgreSQL" />
