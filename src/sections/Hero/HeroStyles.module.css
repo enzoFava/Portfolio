@@ -12,7 +12,7 @@
   }
 
   span {
-    display: flex;
+    display: inline;
     gap: 25px;
     justify-content: center;
 
@@ -76,6 +76,11 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+
+.typewritter {
+  display: inline !important;
 }
 
 @media (width >= 800px) {
